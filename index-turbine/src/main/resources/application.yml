@@ -1,0 +1,12 @@
+spring:
+  application.name: turbine
+### 配置Eureka中的serviceId列表，表明监控哪些服务
+turbine:
+  aggregator:
+    clusterConfig: default
+  appConfig: trend-trading-backtest-service
+  clusterNameExpression: new String("default")
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

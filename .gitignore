@@ -1,0 +1,12 @@
+# 项目排除路径
+/eureka-server/target/
+/index-codes-service/target/
+/index-config-server/target/
+/index-data-service/target/
+/index-gather-store-service/target/
+/index-hystrix-dashboard/target/
+/index-turbine/target/
+/index-zuul-service/target/
+/third-part-data-project/target/
+/trend-trading-backtest-service/target/
+/trend-trading-backtest-view/target/
